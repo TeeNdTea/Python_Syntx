@@ -1,1 +1,101 @@
+#print first program
+print("Hello world")
 
+#Backslash & comments
+'''this
+is a multiple 
+line comment'''
+print("Fox Trot \nManipal") #new line
+print("Fox Trot \tManipal") #tab
+print("\"Fox Trot\"") #printing double/single quotation
+
+
+
+#Variables
+'''variable naming:
+Camel Case: "myVariableName" - Starts with a lowercase letter and capitalizes the first letter of each subsequent word. 
+Snake Case: "my_variable_name" - Separates words with underscores, all lowercase. 
+Pascal Case: "MyVariableName" - Capitalizes the first letter of every word. 
+Kebab Case: "my-variable-name" - Separates words with hyphens. (Not used in Python) '''
+
+name="Lisa"
+age=20 # float & int can be added with ,
+print("Our new student is" +" "+ name) #concatanation...only strings can be add
+print(name+ " "+"is",age, "years old") # space can be given by " "
+print(name+" "+ "lives in Bengalore")
+print("We have a similar aged student who is",age)
+
+
+
+'''a=18
+b=4
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)'''
+
+a=29
+b=4
+print(a//b) # floor division..takes the nearest whole numb
+
+
+print(3**3)#exponential
+
+
+
+# name="Kreze"
+# age=25
+# gpa=3.92
+
+name= input("Enter your name:")
+age= input("Enter age:")
+gpa=input("Enter your gpa:")
+
+print("Student Information")
+print("-------------")
+print("Name: "+name)
+print("Age: ",age)
+print("GPA: ",gpa)
+
+
+
+'''
+>       greater
+<       lesser
+>=
+<=
+==
+!=
+'''
+
+# a=b value of b is put into a
+# a==b checking the equality of b
+
+
+# a=20
+# b=30
+# print(a>b)
+# print(a>=b)
+# print(a<b)
+# print(a<=b)
+# print(a==b)
+# print(a!=b)
+print("HELLO" == "NO BYE")
+
+
+
+# type casting
+'''Take user input and add two numbers'''
+
+# input1 = input("Enter 1st no: ")
+# input2 = input("Enter 2nd no: ")
+# ans= (input1)+(input2) #type casting: type conversion
+# print(ans)
+# print("The sum is",ans)
+
+input1 = int(input("Enter 1st no: "))
+input2 = int(input("Enter 2nd no: "))
+ans= (input1)+(input2) 
+print(ans)
+print("The sum is",ans)
